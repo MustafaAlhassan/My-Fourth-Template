@@ -362,6 +362,7 @@ header .icons img {
 /* Start Tickets */
 .tickets .box {
   width: calc(50% - 10px);
+  border: var(--main-border);
 }
 @media (max-width: 767px) {
   .tickets .box {
@@ -875,7 +876,7 @@ header .icons img {
   height: 12px;
   background-color: var(--blue-color);
   left: 5px;
-  top: 4px;
+  top: 3px;
   transform: scale(0);
   transition: var(--main-transtion);
   -webkit-transition: var(--main-transtion);
